@@ -19,19 +19,29 @@ The following modules are currently supported with security updates and monitori
 
 ---
 
-## 🛡 Reporting a Vulnerability
+## 📩 Reporting a Vulnerability
 
-If you discover a vulnerability or security issue in any Cryptic Creations tool or bot:
+We take security seriously.  
+If you discover a vulnerability, please **do not open a public issue**.
 
-1. **Do not open a public GitHub issue.**
-2. Instead, contact the maintainer **privately** at:
+Instead, use one of the following secure reporting channels:
 
-   📧 **zangreot@gmail.com**
+### ✅ GitHub's Private Reporting (Recommended)
+Use the "Report a vulnerability" button on this repository.  
+This creates a private security advisory only visible to the maintainers.
 
-3. Please include:
-   - A clear and reproducible description of the issue
-   - The affected module or feature
-   - Optional: suggested mitigation or proof of concept (PoC)
+🔗 [Report via GitHub](../../security/advisories/new)
+
+### ✉️ Direct Contact
+Alternatively, you can send a private report via email:
+
+**📧 zangreot@gmail.com**
+
+Please include:
+
+- A clear, reproducible description of the issue
+- The affected module or feature
+- Optional: proof of concept (PoC) or suggested fix
 
 ---
 
@@ -43,10 +53,21 @@ If you discover a vulnerability or security issue in any Cryptic Creations tool 
 
 ---
 
-## 🔒 Internal Notes
+## 🧪 Security Tools
 
-This project is **closed-source** and runs only on a single managed Discord server.  
-However, all reports are taken seriously to ensure user safety and data integrity.
+We plan to actively monitor and respond to automated security checks:
+
+- [x] GitHub Code Scanning (static analysis)
+- [x] GitHub Secret Scanning (token leaks, API keys)
+- [x] Dependabot Alerts (dependency vulnerabilities)
+- [ ] Runtime monitoring (future)
+
+---
+
+## 🔒 Note on Privacy
+
+This project is closed-source and only runs on **one Discord server** managed by the developer.  
+Despite the private nature, all security reports and alerts are treated with highest priority.
 
 ---
 
